@@ -84,4 +84,8 @@ public class Date {
       return false;
     }
   }
+  public String getCurrentDate() {
+    return java.time.LocalDate.now().toString();
+  }
+
 }
