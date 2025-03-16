@@ -84,6 +84,7 @@ public class Date {
       return false;
     }
   }
+  private String dateFormat = "yyyy-MM-dd”;
   public String getCurrentDate() {
     return java.time.LocalDate.now().toString();
   }
